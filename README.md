@@ -1,7 +1,7 @@
 # Smart Zawgyi
 
 
-This is for converting zawgyi character into proper words. It is written with Objective-C for iOS App. Implementations are extracted from [TaKaung Keyboard App](https://itunes.apple.com/us/app/takaung-myanmar-keyboard/id918164885) and moved to embedded framework.
+This is for converting Zawgyi character into proper words. It is written with Objective-C for iOS App. Implementations are extracted from [TaKaung Keyboard App](https://itunes.apple.com/us/app/takaung-myanmar-keyboard/id918164885) and moved to embedded framework.
 
 ## Facebook 
 [https://www.facebook.com/TaKaungKeyboard/](https://www.facebook.com/TaKaungKeyboard/)
@@ -12,7 +12,7 @@ This is for converting zawgyi character into proper words. It is written with Ob
 
 ![Converting](Media/photo1.png)
 
-## Usuage in Main App
+## Usage in Main App
 
 ```obj-c
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
@@ -29,7 +29,7 @@ This is for converting zawgyi character into proper words. It is written with Ob
 ``` 
 
 
-## Usuage in Keyboard Extension
+## Usage in Keyboard Extension
 
 ```obj-c
 Convert *conv = [[Convert alloc] initWithAddTextBlock:^(NSString *str) {
