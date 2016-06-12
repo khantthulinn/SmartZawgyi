@@ -1,0 +1,6 @@
+framework module SmartZawgyi {
+  umbrella header "SmartZawgyi.h"
+
+  export *
+  module * { export * }
+}
