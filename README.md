@@ -1,7 +1,14 @@
 # SmartZawgyi
 
 
-This is for converting zawgyi characters like this. It is written with Objective-C for iOS App.  
+This is for converting zawgyi characters like this. It is written with Objective-C for iOS App. Implementations are extracted from [TaKaung Keyboard App](https://itunes.apple.com/us/app/takaung-myanmar-keyboard/id918164885) and moved to embedded framework.
+
+## Facebook 
+[https://www.facebook.com/TaKaungKeyboard/](https://www.facebook.com/TaKaungKeyboard/)
+  
+
+## Description
+
 
 ![Converting](Media/photo1.png)
 
