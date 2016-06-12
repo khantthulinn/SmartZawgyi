@@ -5,7 +5,7 @@ This is for converting zawgyi characters like this. It is written with Objective
 
 ![Converting](Media/photo1.png)
 
-## Usuage in main app
+## Usuage in Main App
 
 ```obj-c
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
